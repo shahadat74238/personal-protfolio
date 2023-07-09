@@ -209,14 +209,16 @@ main section {
 /* footer related style started */
 .footer-container {
   display: flex;
-  min-height: 780px;
+  margin-top: 100px;
   justify-content: space-around;
   /* gap: 50px; */
   background-color: #e5f8fc;
-  padding-top: 200px;
+  padding: 130px 200px;
+}
+.lets-contact {
+  width: 50%;
 }
 .contact-title {
- 
   padding-bottom: 20px;
 }
 .contact-description {
@@ -226,37 +228,37 @@ main section {
   font-weight: 400;
   line-height: 28px;
 }
-.contact-icon{
+.contact-icon {
   display: flex;
   align-items: center;
   gap: 20px;
   list-style: none;
   font-size: 2rem;
 }
-.item{
+.item {
   text-align: center;
   padding: 10px;
-  
 }
-.item a{
+.item a {
   color: #00b4d8;
 }
-.lets-comment > label{
+.comment-title {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+.lets-comment > label {
   display: block;
-  padding: 24px 0px;
+  width: 50%;
 }
-.lets-comment > label input{
-  padding: 10px 20px;
+.lets-comment > label input[type="text"],
+input[type="email"],
+textarea {
+  padding: 25px 20px;
   width: 450px;
-  height: 65px;
+  /* height: 65px; */
   border: none;
- 
+  margin-bottom: 25px;
 }
-.lets-comment textarea{
-  width: 450px;
-  padding: 20px;
-  border: none;
-}
-.comment-btn{
-  padding-top: 24px;
-}
+
