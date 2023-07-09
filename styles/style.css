@@ -236,6 +236,10 @@ main section {
 .item{
   text-align: center;
   padding: 10px;
+  
+}
+.item a{
+  color: #00b4d8;
 }
 .lets-comment > label{
   display: block;
